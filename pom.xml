@@ -28,9 +28,9 @@
     <packaging>hpi</packaging>
     
     <!-- Information -->
-    <name>Hudson Display Name Plugin</name>
-    <description>Hudson Display Name Plugin adds a extra display name to jobs</description>
-    <url>https://github.com/henriklynggaard/displayname-plugin</url>
+    <name>Display Name</name>
+    <description>Display Name Plugin adds a extra display name to jobs and a column to show it</description>
+    <url>https://github.com/hudson-plugins/displayname-plugin</url>
     
     <!-- license -->
     <licenses>
@@ -42,9 +42,9 @@
     </licenses>
 
     <scm>
-        <connection>scm:git:git://github.com/henriklynggaard/displayname-plugin.git</connection>
-        <developerConnection>scm:git:ssh://git@github.com/henriklynggaard/displayname-plugin.git</developerConnection>
-        <url>https://github.com/henriklynggaard/henriklynggaard/displayname-plugin.git</url>
+        <connection>scm:git:git://github.com/hudson-plugins/displayname-plugin.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com/hudson-plugins/displayname-plugin.git</developerConnection>
+        <url>https://github.com/hudson-plugins/displayname-plugin.git</url>
     </scm>       
     
     <distributionManagement>
@@ -73,7 +73,7 @@
     <!-- issue managment -->
     <issueManagement>
         <system>GitHub</system>
-        <url>https://github.com/henriklynggaard/hudson-maven-repository-server-plugin/issues</url>
+        <url>https://github.com/hudson-plugins/displayname-plugin/issues</url>
     </issueManagement>
  
     <properties>
@@ -137,8 +137,7 @@
                 <configuration>
                     <xmlOutput>true</xmlOutput>
                 </configuration>                
-            </plugin>            
-         
+            </plugin>                     
         </plugins>    
     </reporting>        
 </project>

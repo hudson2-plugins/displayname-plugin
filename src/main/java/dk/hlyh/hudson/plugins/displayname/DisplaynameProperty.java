@@ -16,10 +16,8 @@ import org.kohsuke.stapler.export.Exported;
 import org.kohsuke.stapler.export.ExportedBean;
 import hudson.model.AbstractProject;
 import hudson.model.JobProperty;
-/**
- *
- * @author henrik
- */
+
+
 @ExportedBean
 public class DisplaynameProperty extends JobProperty<AbstractProject<?, ?>> {
 

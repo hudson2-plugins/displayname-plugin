@@ -17,10 +17,6 @@ import hudson.views.ListViewColumnDescriptor;
 import java.util.Map;
 import org.kohsuke.stapler.DataBoundConstructor;
 
-/**
- *
- * @author henrik
- */
 public class DisplaynameColumn extends ListViewColumn{
     
     @DataBoundConstructor

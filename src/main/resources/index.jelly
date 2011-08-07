@@ -9,6 +9,6 @@
  *    Henrik Lynggaard Hansen
 -->
 <div>
-  This plugins adds a display name property and column to hudson jobs. This way the 
+  This plugins adds a display name property to jobs and a column for displaying it. This way the 
   original name can be made filesystem friendly and this used for readability
 </div>
