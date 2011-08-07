@@ -48,6 +48,7 @@ public class DisplaynameProperty extends JobProperty<AbstractProject<?, ?>> {
             load();
         }
 
+        @Override
         public boolean isApplicable(Class<? extends Job> jobType) {
             return AbstractProject.class.isAssignableFrom(jobType);
         }
