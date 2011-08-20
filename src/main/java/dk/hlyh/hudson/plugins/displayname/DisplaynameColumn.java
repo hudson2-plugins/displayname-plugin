@@ -29,6 +29,14 @@ public class DisplaynameColumn extends ListViewColumn{
         return property != null ? property.getDisplayname() : job.getName();            
     }
     
+    public String getJobName(Job job) {
+        return job.getFullDisplayName();
+    }
+    
+    public String getUrl(Job job) {
+        return job.getAbsoluteUrl();
+    }    
+    
     @Extension
     public static class DescriptorImpl extends ListViewColumnDescriptor {
         @Override

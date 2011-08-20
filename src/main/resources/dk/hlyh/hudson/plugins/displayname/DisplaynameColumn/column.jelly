@@ -9,6 +9,5 @@
  *    Henrik Lynggaard Hansen
 -->
 <j:jelly xmlns:j="jelly:core">
-  <j:set var="displayName" value="${it.getDisplayname(job)}"/>
-  <td data="${displayName}">${displayName}</td>
+  <td data="${displayName}"><a href="${it.getUrl(job)}" tooltip="${it.getJobName(job)}">${it.getDisplayname(job)}</a></td>
 </j:jelly>
