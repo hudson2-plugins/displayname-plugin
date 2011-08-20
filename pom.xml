@@ -72,8 +72,8 @@
     
     <!-- issue managment -->
     <issueManagement>
-        <system>GitHub</system>
-        <url>https://github.com/hudson-plugins/displayname-plugin/issues</url>
+        <system>Jira</system>
+        <url>http://java.net/jira/browse/HUDSON_PLUGINS</url>
     </issueManagement>
  
     <properties>
@@ -86,7 +86,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-site-plugin</artifactId>
-                <version>3.0-beta-3</version>
+                <version>3.0</version>
             </plugin>             
         </plugins>
     </build>
@@ -96,7 +96,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-site-plugin</artifactId>
-                <version>3.0-beta-3</version>
+                <version>3.0</version>
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
