@@ -24,7 +24,7 @@
     <!-- identification -->
     <groupId>org.hudsonci.plugins</groupId>
     <artifactId>displayname</artifactId>
-    <version>1.1</version>
+    <version>1.2-SNAPSHOT</version>
     <packaging>hpi</packaging>
     
     <!-- Information -->
